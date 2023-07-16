@@ -54,7 +54,7 @@ const login_user = async credential => {
 
   if (error) {
     return {
-      message: 'error en credenciales',
+      message: 'error en credenciales, hable con el administrador del sistema',
       error: error.details[0].message
     }
   }
